@@ -7,7 +7,7 @@ pub use pallet::*;
 pub mod pallet {
     use frame_support::{dispatch::DispatchResultWithPostInfo, pallet_prelude::*};
     use frame_system::pallet_prelude::*;
-    use sp_std::vec::Vec; // Step 3.1 will include this in `Cargo.toml`
+    use sp_std::vec::Vec;
 
     /// Configure the pallet by specifying the parameters and types on which it depends.
     #[pallet::config]
